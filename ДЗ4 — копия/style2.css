@@ -1,0 +1,96 @@
+
+
+
+
+
+
+
+.header{width: 1302px; height: 72px; background-color: #8C0A0D; margin: 0 auto; 
+    padding-top: 0px; overflow:auto}
+
+.logo{width: 177px; height: 41px; display: inline-block; margin-top: 16px; margin-left: 68px;
+background-image: url('./img1/Лого.png'); background-repeat: no-repeat; }
+
+.menubox {display: inline-block; background-color: black; display: inline-block; 
+    color: #F5CF64 ; font-size: 14px; height: 72px; margin-bottom: 0px; line-height: 0px;
+     left: 0px; top: 0px;}
+
+    .ul{ list-style: none; height: 15px; margin: 0; padding-top: 0px; padding-left: 0px;}
+
+    .menulist {display: inline; list-style-type: none; padding-left: 30px; padding-top: 0px;}
+
+
+.engflag{ width: 26px; height: 18px;background-color: aliceblue; border-radius: 50%;
+    position: absolute; left: 1093px; bottom: 1px;}
+    .ENG{color: #F5CF64 ; font-size: 18px; position: absolute; left: 1130px; bottom: 0px;}
+
+
+.monitor{width: 1302px; height: 687px; 
+    background-image: linear-gradient(45deg, #8C0A0D, #F6CC79, #8C0A0D);
+    }
+
+
+
+.picbox{width: 1170px; height: 335px; position: relative; left: 66px; top: 25px; 
+    background-image: url('./img1/pic.png');}
+.maintext{position: absolute; left: 360px; top: 15px; font-size: 60px; display: inline-block;}
+.button{width: 191px; height: 44px; position: absolute; left: 495px; top: 107px;
+    font-size: 24px; font-weight: bold; padding-left: 17px; padding-top: 7px; z-index: 2; 
+    display: inline-block; background-image: url('./img1/button.png'); background-repeat: no-repeat;}
+    .underbutton{width: 191px; height: 44px; position: absolute; left: 495px; top: 113px; z-index: 1;
+        background-image: url('./img1/underbutton.png'); background-repeat: no-repeat;}
+
+        .left{position: absolute; left: 28px; top: 155px;}
+        .right{position: absolute; right: 28px; top: 155px;}
+        .round1{width: 16px; height: 16px; border-radius: 50%;
+             position: absolute; left: 554px; top: 310px; background-color: white;}
+             .round2{width: 16px; height: 16px; border-radius: 50%;
+                position: absolute; left: 577px; top: 310px; background-color: #BF670D;}
+                .round3{width: 16px; height: 16px; border-radius: 50%;
+                    position: absolute; left: 601px; top: 310px; background-color: white;}
+
+.contboxtop1{width: 275px; height: 64px; position: relative; left: 66px; top: 55px; 
+    font-size: 18px; font-weight: bold; text-align: left;}
+
+.contboxtop2{width: 278px; height: 64px; position: absolute; left: 305px; top: 0px; 
+        font-size: 18px; font-weight: bold; text-align: left;}
+
+.contboxtop3{width: 241px; height: 89px; position: absolute; left: 604px; top: 0px; 
+            font-size: 18px; font-weight: bold; text-align: left;}
+            
+.contboxtop4{width: 249px; height: 63px; position: absolute; left: 899px; top: 0px; 
+                font-size: 18px; font-weight: bold; text-align: left;}
+
+.contboxdown1{width: 259px; height: 135px; position: relative; left: 66px; top: 99px; 
+  line-height: 23px; font-size: 16px; text-align: left;}
+
+  .contboxdown2{width: 254px; height: 158px; position: absolute; left: 305px; top: 0px; 
+    line-height: 23px; font-size: 16px; text-align: left;}
+
+    .contboxdown3{width: 253px; height: 159px; position: absolute; left: 604px; top: 0px; 
+        line-height: 23px; font-size: 16px; text-align: left;}
+        
+        .contboxdown4{width: 276px; height: 133px; position: absolute; left: 899px; top: 0px; 
+            line-height: 23px; font-size: 16px; text-align: left;}
+
+.end{width: 1302px; height: 72px; background-color: #8C0A0D;  }
+.mail1{color: #F5CF64 ; font-size: 14px; width: 195px;
+    position: relative; left: 68px; top: 37px; text-decoration-line: none;}
+
+    .adress{color: #F5CF64 ; font-size: 14px; width: 148px; height: 38px;
+        position: absolute; left: 305px; bottom: 2px; line-height: 22px; text-align: left; }
+
+        .phone{color: #F5CF64 ; font-size: 14px; width: 144px; height: 37px;
+            position: absolute; left: 604px; bottom: 2px; line-height: 22px; text-align: right; }
+
+            .mail2{color: #F5CF64 ; font-size: 14px; width: 138px; height: 36px;
+                position: absolute; left: 899px; bottom: 2px; line-height: 22px; text-align: left; }
+
+                .fb{ width: 27px; height: 27px;background-color: aliceblue; border-radius: 50%;
+                    position: absolute; left: 1097px; bottom: 2px; vertical-align: top;}
+                    .vk{ width: 27px; height: 27px;background-color: aliceblue; border-radius: 50%;
+                        position: absolute; left: 1138px; bottom: 2px;}
+
+      
+  
+
