@@ -12,24 +12,27 @@
 background-image: url('./img1/Лого.png'); background-repeat: no-repeat; vertical-align: top; }
 
 .menubox {display: inline-block; vertical-align: top;
-    color: #F5CF64 ; font-size: 14px; margin-top: 39px; margin-left: 95px; }
+    color: #F5CF64 ; font-size: 14px;  }
 
-    .ul{ list-style: none; margin: 0; padding-top: 0px; padding-left: 0px; display: inline-block; 
+    .ul{ margin-top: 39px; margin-left: 95px; list-style: none; padding-top: 0px; padding-left: 0px; display: inline-block; 
         vertical-align: top;}
     
 
     .menulist {display: inline; list-style-type: none; padding-left: 30px; padding-top: 0px;}
 
-    .menulist2 {display: inline-list-item; padding-left: 11px; padding-top: 0px; vertical-align: top;
-        list-style-image: url('./img1/English.png'); margin-top: 0px; margin-left: 38px;}
+    .langbox {display: inline-block; vertical-align: top; background-color: black; margin-left: 0px;
+    margin-bottom: 0px;  }
+    .ul2{ margin-bottom: 0px; margin-top: 36px; padding-top: 0px; padding-left: 38px; 
+        vertical-align: top; list-style-image: url('./img1/English.png');}
+    
+.menulist2 { padding-left: 0px; padding-top: 0px; vertical-align: top;
+         margin-top: 0px; margin-left: 93px; color: #F5CF64 ; font-size: 18px;}
 
 
-.engflag{ width: 26px; height: 18px;background-color: aliceblue; border-radius: 50%;
-    position: absolute; left: 1093px; bottom: 1px;}
-    .ENG{color: #F5CF64 ; font-size: 18px; position: absolute; left: 1130px; bottom: 0px;}
 
 
-.monitor{width: 1302px; height: 687px; 
+
+.monitor{ width: 1302px; height: 687px;
     background-image: linear-gradient(45deg, #8C0A0D, #F6CC79, #8C0A0D);
     }
 
@@ -53,29 +56,19 @@ background-image: url('./img1/Лого.png'); background-repeat: no-repeat; vert
                 .round3{width: 16px; height: 16px; border-radius: 50%;
                     position: absolute; left: 601px; top: 310px; background-color: white;}
 
-.contboxtop1{width: 275px; height: 64px; position: relative; left: 66px; top: 55px; 
-    font-size: 18px; font-weight: bold; text-align: left;}
+.contboxtop1{ margin-left: 66px; margin-top: 55px; display: inline-block;
+    font-size: 18px; font-weight: bold; text-align: left; vertical-align: bottom; }
 
-.contboxtop2{width: 278px; height: 64px; position: absolute; left: 305px; top: 0px; 
+.contboxtop2{ display: inline-block; margin-left: 29px; vertical-align: bottom;
         font-size: 18px; font-weight: bold; text-align: left;}
 
-.contboxtop3{width: 241px; height: 89px; position: absolute; left: 604px; top: 0px; 
-            font-size: 18px; font-weight: bold; text-align: left;}
+.contboxtop3{ display: inline-block; margin-left: 23px; margin-top: 0px; vertical-align: bottom;
+            font-size: 18px; font-weight: bold; text-align: left; padding-top: 0px;}
             
-.contboxtop4{width: 249px; height: 63px; position: absolute; left: 899px; top: 0px; 
+.contboxtop4{ display: inline-block; margin-left: 62px; vertical-align: bottom;
                 font-size: 18px; font-weight: bold; text-align: left;}
 
-.contboxdown1{width: 259px; height: 135px; position: relative; left: 66px; top: 99px; 
-  line-height: 23px; font-size: 16px; text-align: left;}
 
-  .contboxdown2{width: 254px; height: 158px; position: absolute; left: 305px; top: 0px; 
-    line-height: 23px; font-size: 16px; text-align: left;}
-
-    .contboxdown3{width: 253px; height: 159px; position: absolute; left: 604px; top: 0px; 
-        line-height: 23px; font-size: 16px; text-align: left;}
-        
-        .contboxdown4{width: 276px; height: 133px; position: absolute; left: 899px; top: 0px; 
-            line-height: 23px; font-size: 16px; text-align: left;}
 
 .end{width: 1302px; height: 72px; background-color: #8C0A0D;  }
 .mail1{color: #F5CF64 ; font-size: 14px; width: 195px;
@@ -94,7 +87,4 @@ background-image: url('./img1/Лого.png'); background-repeat: no-repeat; vert
                     position: absolute; left: 1097px; bottom: 2px; vertical-align: top;}
                     .vk{ width: 27px; height: 27px;background-color: aliceblue; border-radius: 50%;
                         position: absolute; left: 1138px; bottom: 2px;}
-
-      
-  
 
