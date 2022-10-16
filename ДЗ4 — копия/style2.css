@@ -9,15 +9,19 @@
     padding-top: 0px; overflow:auto}
 
 .logo{width: 177px; height: 41px; display: inline-block; margin-top: 16px; margin-left: 68px;
-background-image: url('./img1/Лого.png'); background-repeat: no-repeat; }
+background-image: url('./img1/Лого.png'); background-repeat: no-repeat; vertical-align: top; }
 
-.menubox {display: inline-block; background-color: black; display: inline-block; 
-    color: #F5CF64 ; font-size: 14px; height: 72px; margin-bottom: 0px; line-height: 0px;
-     left: 0px; top: 0px;}
+.menubox {display: inline-block; vertical-align: top;
+    color: #F5CF64 ; font-size: 14px; margin-top: 39px; margin-left: 95px; }
 
-    .ul{ list-style: none; height: 15px; margin: 0; padding-top: 0px; padding-left: 0px;}
+    .ul{ list-style: none; margin: 0; padding-top: 0px; padding-left: 0px; display: inline-block; 
+        vertical-align: top;}
+    
 
     .menulist {display: inline; list-style-type: none; padding-left: 30px; padding-top: 0px;}
+
+    .menulist2 {display: inline-list-item; padding-left: 11px; padding-top: 0px; vertical-align: top;
+        list-style-image: url('./img1/English.png'); margin-top: 0px; margin-left: 38px;}
 
 
 .engflag{ width: 26px; height: 18px;background-color: aliceblue; border-radius: 50%;
