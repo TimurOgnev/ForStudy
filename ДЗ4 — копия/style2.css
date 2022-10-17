@@ -1,8 +1,4 @@
-
-
-
-
-
+a {text-decoration: none; color: #F5CF64}
 
 
 .header{width: 1302px; height: 72px; background-color: #8C0A0D; margin: 0 auto; 
@@ -48,6 +44,8 @@ background-image: url('./img1/Лого.png'); background-repeat: no-repeat; vert
 .button{width: 191px; height: 44px; position: absolute; left: 495px; top: 107px;
     font-size: 24px; font-weight: bold; padding-left: 17px; padding-top: 7px; z-index: 2; 
     display: inline-block; background-image: url('./img1/button.png'); background-repeat: no-repeat;}
+
+    .linkcolor {color: black;}
     .underbutton{width: 191px; height: 44px; position: absolute; left: 495px; top: 113px; z-index: 1;
         background-image: url('./img1/underbutton.png'); background-repeat: no-repeat;}
 
@@ -60,10 +58,10 @@ background-image: url('./img1/Лого.png'); background-repeat: no-repeat; vert
                 .round3{width: 16px; height: 16px; border-radius: 50%;
                     position: absolute; left: 601px; top: 310px; background-color: white;}
 
-                    .contboxmain {margin-left: 66px; margin-top: 55px; background-color: aqua;
+
+                    .contboxmain {margin-left: 66px; margin-top: 55px; 
                     width: 1170px;}
                     
-
 .contbox1{  display: inline-block; width: 259px; vertical-align: top; }
 
 .contbox2{  margin-left: 35px; width: 254px; display: inline-block; vertical-align: top; }
@@ -78,23 +76,32 @@ background-image: url('./img1/Лого.png'); background-repeat: no-repeat; vert
                     vertical-align: top; margin-bottom: 29px; }
 
 
-
-
 .end{width: 1302px; height: 72px; background-color: #8C0A0D;  }
-.mail1{color: #F5CF64 ; font-size: 14px; width: 195px;
-    position: relative; left: 68px; top: 37px; text-decoration-line: none;}
 
-    .adress{color: #F5CF64 ; font-size: 14px; width: 148px; height: 38px;
-        position: absolute; left: 305px; bottom: 2px; line-height: 22px; text-align: left; }
+.footerbox1 {display: inline-block;}
+.mail1{color: #F5CF64 ; font-size: 14px; display: inline-block; vertical-align: top; padding-left: 68px;  padding-top: 37px; }
 
-        .phone{color: #F5CF64 ; font-size: 14px; width: 144px; height: 37px;
-            position: absolute; left: 604px; bottom: 2px; line-height: 22px; text-align: right; }
+    .adress{color: #F5CF64 ; font-size: 14px; vertical-align: top; list-style: none;
+        text-align: left; display: inline-block; padding-left: 102px;}
 
-            .mail2{color: #F5CF64 ; font-size: 14px; width: 138px; height: 36px;
-                position: absolute; left: 899px; bottom: 2px; line-height: 22px; text-align: left; }
+        .phone{color: #F5CF64 ; font-size: 14px; vertical-align: top; list-style: none;
+            text-align: right; display: inline-block; padding-left: 149px;}
 
-                .fb{ width: 27px; height: 27px;background-color: aliceblue; border-radius: 50%;
-                    position: absolute; left: 1097px; bottom: 2px; vertical-align: top;}
-                    .vk{ width: 27px; height: 27px;background-color: aliceblue; border-radius: 50%;
-                        position: absolute; left: 1138px; bottom: 2px;}
+            .email {color: #F5CF64 ; font-size: 14px; vertical-align: top; list-style: none;
+                text-align: left; display: inline-block; padding-left: 155px; }
+        
+        .li{ padding-bottom: 10px;}
+
+       .fb{width: 27px; height: 27px;background-color: aliceblue; border-radius: 50%;
+                    vertical-align: top; display: inline-block; margin-top: 22px; margin-left: 69px;}
+       .vk{ width: 27px; height: 27px;background-color: aliceblue; border-radius: 50%;
+                        vertical-align: top; display: inline-block; margin-top: 22px; margin-left: 13px;}
+
+
+
+
+
+
+
+
 
