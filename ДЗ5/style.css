@@ -1,12 +1,18 @@
 :root { background-color: #f2f2f2;}
 img { border-radius: 15px;}
+h1 , h2 {margin: 0; padding: 0;}
 
 body {margin-left: 20%;}
 .menumain {margin: 0px auto;  }
-.Group{width: 700px; margin-left: 20px;  }
-.h {font-size: xx-large;  margin-bottom: 20px;}
-.decorate{margin-bottom: 20px; height: 16px; background-image: url('./img5/dec.png');
-background-repeat: repeat; width: 674px; }
+.Group{ margin-left: 20px; width: 700px;  }
+
+.hdotters { margin-bottom: 25px; position: relative; overflow: hidden; }
+.hdotters::before {content: ""; 
+     border-bottom:10px dotted red; border-image: url('./img5/dec.png') 0 0 100% 0 repeat; 
+     position: absolute; bottom: 0px; width: 680px;}
+     .h { margin-bottom: 20px; float: left;
+          position: relative; color: #884729;}
+
 
 .pointbox{ margin-bottom: 20px; height: 150px; }
 
@@ -14,18 +20,17 @@ background-repeat: repeat; width: 674px; }
  vertical-align: top; float: left;  margin-right: 20px;}
 
  
-.foodandprice{position: relative; overflow: hidden; }
-.foodandprice::after{ content: ""; border-bottom: 1px dotted; 
-     position: absolute; bottom: 5px; z-index: 2; width: 100%;}
-    
-
-
-.food1 { font-size: x-large;;
-      color: #bc984e; float: left;
-     position: relative; z-index: 3; overflow: hidden;  }
+ .foodandprice{position: relative; overflow: hidden; }
+ .foodandprice::after{ content: ""; border-bottom: 1px dotted; 
+      position: absolute; bottom: 5px; z-index: 2; width: 100%;}
      
-.price{ color: #949505; font-size: larger;  position: relative; z-index: 3; float: right; 
-     overflow: hidden; padding-right: 20px; padding-top: 5px; background-color: #f2f2f2; }
-.price::before { content: " $ "; color: #949505;}
-.txt {text-align: left; margin-top: 50px; padding-left: 20px;} 
-
+ 
+ 
+ .food1 { padding-top: 10px;
+       color: #bc984e; float: left;
+      position: relative; z-index: 3; overflow: hidden;  }
+      
+ .price{ font-weight: bold; color: #949505; font-size: larger;  position: relative; z-index: 3; float: right; 
+      overflow: hidden; padding-right: 20px; padding-top: 15px; background-color: #f2f2f2; }
+ .price::before { content: " $ "; color: #949505;}
+ .txt {text-align: left; margin-top: 50px; padding-left: 20px;} 
