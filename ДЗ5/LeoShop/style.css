@@ -101,15 +101,15 @@ position: absolute; left: 229px; top: 201px; color: #FFFFFF; }
         .rightbanner{width: 233px; margin-left: 20px ;
                  display: inline-block; vertical-align: top;}
 
-                .featglass{ height: 100px; box-shadow: 0px 1px 5px 0px #999999; vertical-align: top;  
-                        border-top: solid #4CB1CA 5px;}
-                .featglass p{font-size: 24px; color: #635F57; text-align: center; vertical-align: bottom; padding-top: 35px; }
-.rightbannerpic{box-shadow: 0px 1px 5px 0px #999999; padding-left: 12px;  position: relative;}
+                .featglass{  box-shadow: 0px 1px 5px 0px #999999; vertical-align: top;  
+                        border-top: solid #4CB1CA 5px; }
+                .featglass p{font-size: 24px; color: #635F57; text-align: center; vertical-align: bottom; padding-top: 30px; }
+.rightbannerpic{ padding-left: 12px; margin-top: 20px;  position: relative; }
 .bluebutton{ width: 135px; height: 47px; background-color: #4CB1CA;
          position: absolute; left: 50px; top: 250px; z-index: 2;}
-        .bluebutton p{ font-size: 16px; color: #FFFFFF; text-align: center; line-height: 44px;}
+        .bluebutton p{ font-size: 16px; color: #FFFFFF; text-align: center; padding-top: 15px;}
 
-.circlebox{ height: 44px; box-shadow: 0px 1px 5px 0px #999999; }
+.circlebox{ height: 44px;}
 .circles {position: relative; left: 90px; top: 17px;}
 .circles::after{content: url('./image/Ellipse\ green.png');}
 .circles::before{content: url('./image/Ellipse\ blue.png');}
