@@ -72,11 +72,11 @@ position: absolute; left: 229px; top: 201px; color: #FFFFFF; }
 .forpicNEW{width: 216px; height: 224px; background-color:#EFF1F0; 
                 margin-left: 10px; margin-top: 10px; position: relative; }
         .forpicNEW::after{content: url('./image/NEW.png'); 
-                position: absolute; left: 122px; top: 0px;}
+                position: absolute; left: 122px; top: 0px; scale: 128%;}
 .forpicSALE{width: 216px; height: 224px; background-color:#EFF1F0; 
                         margin-left: 10px; margin-top: 10px; position: relative; }
         .forpicSALE::after{content: url('./image/SALE.png'); 
-                        position: absolute; left: 0px; top: 0px;}
+                        position: absolute; left: 0px; top: 0px;  scale: 128%;}
 
 
 
@@ -110,7 +110,7 @@ position: absolute; left: 229px; top: 201px; color: #FFFFFF; }
         .bluebutton p{ font-size: 16px; color: #FFFFFF; text-align: center; padding-top: 15px;}
 
 .circlebox{ height: 44px;}
-.circles {position: relative; left: 90px; top: 17px;}
+.circles { width: fit-content; margin-left: 90px; padding-top: 14px;}
 .circles::after{content: url('./image/Ellipse\ green.png');}
 .circles::before{content: url('./image/Ellipse\ blue.png');}
 
