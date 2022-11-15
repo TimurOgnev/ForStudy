@@ -71,12 +71,10 @@ position: absolute; left: 229px; top: 201px; color: #FFFFFF; }
         margin-left: 10px; margin-top: 10px; position: relative; }
 .forpicNEW{width: 216px; height: 224px; background-color:#EFF1F0; 
                 margin-left: 10px; margin-top: 10px; position: relative; }
-        .forpicNEW::after{content: url('./image/NEW.png'); 
-                position: absolute; left: 122px; top: 0px; scale: 128%;}
+        .NEW{position: absolute; width: 65%; height: auto; left: 102px; bottom: 87px;}
 .forpicSALE{width: 216px; height: 224px; background-color:#EFF1F0; 
                         margin-left: 10px; margin-top: 10px; position: relative; }
-        .forpicSALE::after{content: url('./image/SALE.png'); 
-                        position: absolute; left: 0px; top: 0px;  scale: 128%;}
+        .SALE{position: absolute; width: 65%; height: auto; right: 90px; bottom: 87px;}
 
 
 
