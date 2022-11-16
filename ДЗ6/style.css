@@ -1,0 +1,122 @@
+* {margin: 0 auto;}
+
+p {margin: 0px; padding: 0px;}
+h1{margin: 0px; padding: 0px;}
+
+main {width: 1980px; height: 4715px;}
+
+
+
+header {width: 1980px; height: 1133px; background-color: #1f1f1f; position: relative;}
+
+.logoMailPhoneLogIn{height: 100px; padding-left: 5%;}
+.Logo{width: 55px; height: 100%; margin-right: 1128px; vertical-align: top; background-repeat: no-repeat;
+     background-image: url('./image/Logo.png'); display: inline-block; margin-top: 60px;}
+
+.Mail{  height: 100%; margin-right: 60px; margin-top: 70px;
+    display: inline-block; vertical-align: top;}
+    .Mail::after{content:"contact@furie.co"; font-size: 18px; color: white; vertical-align: top;
+   position: relative; left: 16px; top: 2px;}
+
+.Phone {height: 100%; margin-right: 60px; margin-top: 67px;
+    display: inline-block; font-size: 18px; color: white; vertical-align: top;}
+    .Phone::after{content:"+48 605 320 091"; font-size: 18px; color: white; vertical-align: top;
+        position: relative; left: 15px; top: 5px;}
+
+.LogIn{ width: 127px; height: 100%; display: inline-block; vertical-align: top; margin-top: 55px; }
+.HeaderPic{position: absolute; top: 274px; left: 317px;}
+.BulletsTop{position: absolute; right: 6%; top: 42%;}
+.txtunderpic{font-size: 18px; color: white; position: absolute; top: 917px; left: 890px;}
+
+.MakeModelCityBox{position: absolute; left: 235px; top: 989px;}
+.MakeModelCity{width: 330px; border-bottom: solid 1px #3C3C3C; margin-right: 109px;
+     vertical-align: top; display: inline-block;}
+.MakeModelCity p{ font-size: 30px; color: #3C3C3C; vertical-align: top; padding-bottom: 23px;
+font-weight: bolder;}
+.SearchButton{display: inline-block; margin-left: 5px;}
+
+.takeyourbest{width: 100%; color: #C1C1C1; font-size: 18px; text-align: center; padding-top: 50px;}
+
+.monitor1{width: 1980px; height: 900px; background-color: white;}
+.carmarksbox{width: fit-content; margin-left: 103px; margin-top: 68px; 
+     border-bottom: solid 1px #EBEBEB; }
+     
+.carmark{display: inline-block; margin-right: 195px;}
+   .carmark img{padding-bottom: 73px;}
+.carmarksbox :last-child {margin-right: 0px;}
+
+.BMWseriesbox{margin-top: 172px; margin-left: 242px; }
+.BMWpic{display: inline-block;}
+.BMWseries{ margin-left: 250px; display: inline-block; width: 693px; vertical-align: top; }
+.BMWseries h1 {color: #135EC5; padding-bottom: 10px; font-size: 60px;}
+.BMWseries p{color: #C1C1C1; font-size: 16px; line-height: 50px; padding-bottom: 38px;}
+
+.topbanner{background-color: #135EC5; width: 1980px; height: 544px;}
+.AddYourAnnoun{ padding-top: 147px; width: 100%; position: relative;}
+.AddYourAnnoun p{text-align: center; padding-bottom: 70px; font-size: 60px; color: white; font-weight: bolder; }
+.car2{position: absolute; width: 100%; top: 400px;}
+.car2 p{text-align: center;}
+
+.Banners {background-color: white; width: 1980px;}
+
+.BannerLeft{display: inline-block; width: 453px; height: 571px;
+      margin-top: 331px; margin-left: 181px; box-shadow: 0px 1px 5px 0px #999999;}
+      .BannerLeftTop{height: 190px; width: 100%; background-color: #135EC5; position: relative;}
+      .FURIE{position: absolute; top: 39px; z-index: 1; opacity: 10%;}
+      .FreshButton{position: absolute; left: 344px; top: 28px; z-index: 2;}
+      .Car3{position: absolute; left: 87px; top: 126px; z-index: 3;}
+      
+      .MersLorem1{margin-top: 141px; text-align: center; font-size: 30px; font-weight: bolder;}
+      .MersCars{margin-top: 19px; text-align: center; font-size: 14px; color: #135EC5; font-weight: bolder;}
+      .kmDiesel{margin-top: 37px; text-align: center; font-size: 18px; color: #C1C1C1;}
+
+      .MoreInfoButton {float: right; margin-top: 38px; margin-right: 59px; margin-left: 38px;}
+      .Price{font-size: 30px; margin-top: 45px; font-weight: bolder; color: #16AD2C; text-align: right;}
+      
+      
+
+
+.BannerRight{display: inline-block; position: relative; width: 1039px; height: 686px;
+margin-left: 211px;  box-shadow: 0px 1px 5px 0px #999999; vertical-align: top; margin-top: 256px;
+background-image: linear-gradient( 90deg, white 50%, #135EC5 50% 90%,  white 90% 100% );}
+.BannerRightTop{ margin-top: 62px; width: 100%; }
+.MersCars2{ font-size: 14px; color: #E2E2E2; font-weight: bolder; display: inline-block;
+      margin-left: 60px; vertical-align: middle;}
+.Price2{font-size: 30px; font-weight: bolder; color: #16AD2C; margin-left: 186px; 
+     vertical-align: middle; display: inline-block;}
+.FreshButton2{ display: inline-block; margin-left: 364px; vertical-align: bottom;}
+.BannerRightTxtBox{margin-left: 59px; display: inline-block;}
+.MersLorem2{margin-top: 125px; font-size: 30px; font-weight: bolder; color: #135EC5;}
+.BannerRightTxt { width: 318px; color: #C1C1C1; font-size: 16px; line-height: 50px; 
+     padding-bottom: 81px; padding-top: 20px; } 
+.OrderCarButton{width: 217px; height: 58px;}   
+.Car4{position: absolute; top: 163px; left: 438px;
+     width: 56%; height: auto; }
+.BulletsDown{position: absolute; bottom: 12%; right: 26%;}
+
+footer{margin-top: 149px;  box-shadow: 0px 1px 5px 0px #999999; width: 1465px; height: 867px; position: relative;}
+.table1{width: 100%; border-spacing: 50px 0px; padding-top: 74px; font-weight: bolder;}
+.table1 :nth-child(2) {color: #1f1f1f;}
+.td1{border-bottom: solid 1px #EBEBEB ; color: #C1C1C1; font-size: 18px; width: 306px;}
+.td1 p{ padding-bottom: 20px;  }
+.pin{float: right;}
+
+.table2{width: 93%; margin-top: 124px;}
+.table2 :last-child{text-align: right;}
+.table2 :first-child{text-align: left;}
+.td2{width: 17%; }
+
+.table3{width: 100%; margin-top: 97px; border-spacing: 50px 0px;}
+.td3{border-bottom: solid 1px #EBEBEB ; 
+     color: #C1C1C1; font-size: 18px; font-weight: bolder; width: 306px;}
+     .td3 p{padding-bottom: 23px;}
+
+.table4{width: 100%; margin-top: 100px; background-color: #135EC5;  border-spacing: 50px 0px;}
+.td4{border-bottom: solid 1px #3676CE ; color: #C1C1C1; font-size: 18px; width: 306px;}
+.td4 p{ padding-bottom: 20px; padding-top: 63px;}
+.tdWhiteSearch{ width: 100%; }
+.tdWhiteSearch p{ text-align: center; padding-top: 56px; padding-bottom: 56px; } 
+.HideAdwSearch{position: absolute; z-index: 2; right: 43%; top: 62%; }
+
+     
+
