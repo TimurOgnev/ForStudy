@@ -14,20 +14,22 @@
     
    <header>
 <div class="logoMailPhoneLogIn">
-    <div class="Logo"></div>
+    <div class="Logo"> <img src="./image/Logo.png"></div>
     <div class="Mail"><img src="./image/Mail.png"></div>
     <div class="Phone"><img src="./image/Phone.png"></div>
     <div class="LogIn"><a href="#"> <img src="./image/LogIn.png"> </a></div>
 </div>
 
-<img class="HeaderPic" src="./image/ChangeYourCar.png">
-<img class="BulletsTop" src="./image/BulletsTop.png">
+<div class="HeaderPic">
+ <img class="ChangeYourCar" src="./image/ChangeYourCar.png">
+ <img class="BulletsTop" src="./image/BulletsTop.png">
+</div>
 <div class="txtunderpic">car buying made simply</div>
 
 <div class="MakeModelCityBox">
-   <div class="MakeModelCity"><p>Make</p></div>
-   <div class="MakeModelCity"><p>Model</p></div>
-   <div class="MakeModelCity"><p>City</p></div>
+   <div class="MakeModelCity"><p>Make</p><input type="text"></div>
+   <div class="MakeModelCity"><p>Model</p><input type="text"></div>
+   <div class="MakeModelCity"><p>City</p><input type="text"></div>
    <div class="SearchButton"><img src="./image/SearchButton.png"></div>
 </div>
 </header>
@@ -35,10 +37,10 @@
 <div class="monitor1">
     <div class="takeyourbest">Take your best</div>   
     <div class="carmarksbox">
-        <div class="carmark"><img src="./image/1.png"></div>
+        <div class="carmark"><img src="./image/3.png"></div>
         <div class="carmark"><img src="./image/2.png"></div>
         <div class="carmark"><img src="./image/BMW.png"></div>
-        <div class="carmark"><img src="./image/3.png"></div>
+        <div class="carmark"><img src="./image/1.png"></div>
         <div class="carmark"><img src="./image/5.png"></div>
         <div class="carmark"><img src="./image/4.png"></div>
         <div class="carmark"><img src="./image/7.png"></div>
@@ -103,17 +105,19 @@
 </div>
 
 <footer>
-    <img class="HideAdwSearch" src="./image/HideAdw.png">
+   
 
-<table class="table1">
- <tr>
-  <td class="td1"><p>Make</p></td>
-  <td class="td1"><div class="pin"><img src="./image/Pin.png"></div><p>Warsaw, Poland</p></td>
-  <td class="td1"><p>Category</p></td>
-  <td class="td1"><p>Keywards</p></td>
- </tr>
 
-</table>
+ <div class="ADWSearchBox">
+    <div class="MakeCategoryKeywardsBox"><input class="MakeCategoryKeywardsinput" type="text" placeholder="Make"></div>
+    <div class="MakeCategoryKeywardsBox"><input class="MakeCategoryKeywardsinput" type="text" placeholder="Location"> <div class="pin"><img src="./image/Pin.png"></div></div>
+    <div class="MakeCategoryKeywardsBox"><input class="MakeCategoryKeywardsinput" type="text" placeholder="Category"></div>
+    <div class="MakeCategoryKeywardsBox"><input class="MakeCategoryKeywardsinput" type="text" placeholder="Keywards"></div>
+  
+</div>
+ 
+
+
 
 <table class="table2">
     <tr>
@@ -128,46 +132,36 @@
    
 </table>
 
-<table class="table3">
-    <tr>
-     <td class="td3"><p>Price from</p></td>
-     <td class="td3"><p>To</p></td>
-     <td class="td3"><p>Year from</p></td>
-     <td class="td3"><p>To</p></td>
-    </tr>
-   
-   </table>
+<div class="ADWSearchBox2">
+    <div class="PriceYearFromToBox"><input class="PriceYearFromToInput" type="text" placeholder="Price from"></div>
+    <div class="PriceYearFromToBox"><input class="PriceYearFromToInput" type="text" placeholder="to"></div>
+    <div class="PriceYearFromToBox"><input class="PriceYearFromToInput" type="text" placeholder="Year from"></div>
+    <div class="PriceYearFromToBox"><input class="PriceYearFromToInput" type="text" placeholder="to"></div>
+  
+</div>
 
-   <table class="table4">
-    <tr >
-     <td class="td4"> <p>Transmission</p></td>
-     <td class="td4"> <p>Fuel Type</p></td>
-     <td class="td4"> <p>Drive Type</p></td>
-     <td class="td4"> <p>Cylinders</p></td>
-    </tr>
-    <tr >
-        <td class="td4"> <p>Power</p></td>
-        <td class="td4"> <p>Engine Size</p></td>
-        <td class="td4"> <p>Towing</p></td>
-        <td class="td4"> <p>Induction/turbo</p></td>
-    </tr>
-    <tr>
-        <td class="tdWhiteSearch" colspan="4"><p><img src="./image/WhiteSearchButton.png"></p> </td>
-    </tr>
-   
-   </table>
-   
-   
+<div class="ADWSearchEnd">
+    <p class="HideAdwSearch"><img src="./image/HideAdw.png"></p> 
+  <div class="ADWSearchEndBox">
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Transmission"></div>
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Fuel type"></div>
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Drive type"></div>
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Cylinders"></div>
+   </div>
+   <div class="ADWSearchEndBox">
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Power"></div>
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Engine size"></div>
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Towing"></div>
+    <div class="Transmission1Power2"><input class="Transmission1Power2input" type="text" placeholder="Induction/turbo"></div>
+   </div>
+
+   <p class="SearchFooter"><img  src="./image/SearchFooter.png"></p>
+
+</div>
 
 </footer>
 
-
 </main>
-
-
-
-
-
 
 </body>
 
