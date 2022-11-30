@@ -11,19 +11,35 @@ h1{margin: 0px; padding: 0px;}
 
 main{width: 1980px;}
 
+@media screen and  (width: 1280px) {
+     .Logo img{ width: 50%;};
+     .Mail img{ width: 20%;};
+     .Mail::after{font-size: 12px;};
+     .Phone img{ width: 20%;};
+     .Phone::before{ font-size: 12px; }
+     .LogIn img{ width: 70%;};
+     .ChangeYourCar{float: left; padding-left: 15%; width: 70%;};
+     .txtunderpic{font-size: 14px;};
+     .MakeModelCity{width: 17%; };
+     .MakeModelCity input{ font-size: 18px;};
+     .SearchButton img{ width: 80%;};
+}
+
 header {background-color: #1f1f1f; position: relative;}
 
 .logoMailPhoneLogIn{ height: auto; padding-top: 3%; width: 90%; margin: 0 auto;}
 .Logo{ vertical-align: top; float: left;}
 
-.Mail{ position: relative; padding-left: 4%;
+.Mail{ position: relative; padding-right: 4%;
      vertical-align: top;  float: right; padding-top: 0.8%;   }
+     .Mail img{ width: 20%;}
     .Mail::after{content:"contact@furie.co"; font-size: 18px; color: white; position: relative;
      left: 7%; vertical-align: top; height: 100%; display: inline-block; }
 
-.Phone { padding-top: 0.8%; vertical-align: top; padding-left: 4%;
-     font-size: 18px; color: white;  float: right; position: relative;}
-    .Phone::after{content:"+48 605 320 091"; font-size: 18px; color: white; position: relative; 
+.Phone { padding-top: 0.8%; vertical-align: top;
+     float: right; position: relative;}
+     .Phone img{ float: left;}
+    .Phone::before{content:"+48 605 320 091"; font-size: 18px; color: white; position: relative; 
        left: 7%; vertical-align: top; height: 100%; }
 
 .LogIn{ vertical-align: top; float: right; padding-left: 4%;}
@@ -36,11 +52,11 @@ header {background-color: #1f1f1f; position: relative;}
 .MakeModelCityBox{padding-top: 3%; padding-left: 12%; padding-bottom: 5%;}
 .MakeModelCity{width: 18.8%; border-bottom: solid 1px #3C3C3C; margin-right: 6.3%;
      vertical-align: top; display: inline-block;}
-.MakeModelCity p{ font-size: 30px; color: #3C3C3C; vertical-align: top; padding-bottom: 1.6%;
-font-weight: bolder; display: inline-block;}
-.MakeModelCity input{vertical-align: bottom; font-size: 40px; width: 70%; border: none;
-     background-color:#1f1f1f; text-indent: 1em; color: #ffffff;}
-.SearchButton{display: inline-block; }
+     .MakeModelCity p{ padding-bottom: 10%; vertical-align: top;
+          font-weight: bolder;}
+          .MakeModelCity input{ font-size: 40px; vertical-align: bottom;
+               font-weight: bolder; border: none; background-color: #1f1f1f;}
+.SearchButton{display: inline-block; vertical-align: bottom; }
 
 .takeyourbest{ color: #C1C1C1; font-size: 18px; text-align: center; padding-top: 2.5%;}
 
@@ -48,7 +64,7 @@ font-weight: bolder; display: inline-block;}
 .carmarksbox{padding-left: 5.2%; padding-left: 4%;  padding-top: 3.4%; 
      border-bottom: solid 1px #EBEBEB; }
      
-.carmark{ width: 15%; display: inline-block; }
+.carmark{ width: 15%; display: inline-block; vertical-align: top; }
    .carmark img{padding-bottom: 25%;}
 .carmarksbox div:last-of-type {width: 8.7%;}
 
