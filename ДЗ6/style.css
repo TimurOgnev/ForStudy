@@ -132,9 +132,10 @@ footer{margin-top: 6%; box-shadow: 0px 1px 5px 0px #999999;
 .pin{float: right; vertical-align: top;}
 
 .table2{width: 93%; margin-top: 10%;}
-.table2 :last-child{text-align: right;}
-.table2 :first-child{text-align: left;}
-.td2{width: 17%; }
+.td2 {float: left; padding-left: 10%;}
+.table2 :first-child{padding-left: 0%; }
+.table2 :last-child{float: right; padding-left: 0%; }
+
 
 .ADWSearchBox2{width: 94%; margin: 0 auto; padding-top: 6.5%;}
 .ADWSearchBox2 :last-child {margin-right: 0px;}
