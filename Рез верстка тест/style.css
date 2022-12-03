@@ -42,17 +42,24 @@ header {background-color: #1f1f1f; max-width: 1280px;}
 
 .txtunderpic{font-size: 0.9vw; color: white; text-align: center;}
 
-.MakeModelCityBox{padding-top: 3%; padding-bottom: 10%; width: 75%;}
-.MakeModelCity{width: 20%; border-bottom: solid 1px #3C3C3C; margin-right: 5%;
-     vertical-align: bottom; float: left; }
-.MakeModelCity p{ padding-bottom: 10%;
-font-weight: bolder;}
-.MakeModelCity input{ font-size: 1.5vw; vertical-align: bottom; width: 100%;
-     font-weight: bolder; border: none; background-color: #1f1f1f;}
-.SearchButton{float: right; width: 20%; }
 
-@media screen and (min-width: 300px) and (max-width: 600px)  
+
+.table1{border-spacing: 6vw 3vw ; width: 95%;}
+.td1 {border-bottom: solid 1px #3C3C3C; width: 30%;}
+
+
+.MakeModelCityInput{ font-size: 1.5vw; vertical-align: top; width: 100%;
+     font-weight: bolder; border: none;  background-color: #1f1f1f;}
+
+
+.SearchButton{ vertical-align: bottom; width: 15vw; }
+
+@media screen and (max-width: 600px) and (min-width: 300px)
  {
-     
+     .PhoneMailTxt { font-size: 2vw;}
+     .MailPic { width: 7%;} 
+     .PhonePic { width: 7%;} 
+     .LogIn{width: 13%; }
+     .Logo{ width: 7%;}
+     .MakeModelCityInput{ font-size: 3vw;}
 }
-
