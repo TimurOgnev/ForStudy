@@ -8,7 +8,7 @@ h1{margin: 0px; padding: 0px;}
      outline-offset: 0;
  }
 
- :root {--fontsize: 100%}
+ :root {--size: 100%}
 
 
 
@@ -26,7 +26,7 @@ header {background-color: #1f1f1f; max-width: 1280px;}
         float: right; width: 5%;  }
 .PhonePic {  padding-right: 1%;  padding-top: 0.8%;
        float: right;  width: 5%; padding-left: 1%;  }
-       .PhoneMailTxt {font-size: 14px; color: white; 
+       .PhoneMailTxt {font-size: 0.9vw; color: white; 
            vertical-align: top;  float: right; 
            padding-top: 1.4%;  padding-right: 1%;}
       
@@ -40,21 +40,19 @@ header {background-color: #1f1f1f; max-width: 1280px;}
 .BulletsTop {position: absolute; bottom: 50%; right: 0%; width: 1%;}
 
 
-.txtunderpic{font-size: var(--fontsize); color: white; text-align: center;}
+.txtunderpic{font-size: 0.9vw; color: white; text-align: center;}
 
 .MakeModelCityBox{padding-top: 3%; padding-bottom: 10%; width: 75%;}
 .MakeModelCity{width: 20%; border-bottom: solid 1px #3C3C3C; margin-right: 5%;
      vertical-align: bottom; float: left; }
 .MakeModelCity p{ padding-bottom: 10%;
 font-weight: bolder;}
-.MakeModelCity input{ font-size: 18px; vertical-align: bottom; width: 100%;
+.MakeModelCity input{ font-size: 1.5vw; vertical-align: bottom; width: 100%;
      font-weight: bolder; border: none; background-color: #1f1f1f;}
 .SearchButton{float: right; width: 20%; }
 
 @media screen and (min-width: 300px) and (max-width: 600px)  
  {
-     .PhoneMailTxt {font-size: 10px}
+     
 }
-
-
 
