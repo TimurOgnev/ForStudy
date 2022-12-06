@@ -1,0 +1,188 @@
+* {margin: 0 auto;}
+* {box-sizing: border-box;}
+
+p {margin: 0px; padding: 0px;}
+h1{margin: 0px; padding: 0px;}
+:active, :hover, :focus {
+     outline: 0;
+     outline-offset: 0;
+ }
+
+
+
+
+
+main { max-width: 1980px;}
+
+header {background-color: #1f1f1f;}
+
+.logoMailPhoneLogIn{ padding-top: 3%; width: 90%;}
+
+.Logo{ vertical-align: top; float: left; width: 5%;}
+
+
+
+.MailPic{ padding-left: 1%; padding-top: 1%; padding-right: 1%;
+        float: right; width: 5%;  }
+.PhonePic {  padding-right: 1%;  padding-top: 0.8%;
+       float: right;  width: 5%; padding-left: 1%;  }
+       .PhoneMailTxt {font-size: 0.9vw; color: white; 
+           vertical-align: top;  float: right; 
+           padding-top: 1.4%;  padding-right: 1%;}
+      
+.LogIn{ vertical-align: top; float: right; width: 10%; padding-left: 1%; }
+
+
+.HeaderPic{ margin-top: 8.8%; width: 90%; position: relative; }
+
+.ChangeYourCar{ text-align: center;  }
+.ChangeYourCar img{ width: 80%;}
+.BulletsTop {position: absolute; bottom: 50%; right: 0%; width: 1%;}
+
+
+.txtunderpic{font-size: 1vw; color: white; text-align: center;}
+
+
+
+.HeaderTable{border-spacing: 6vw 1vw ; width: 95%; padding-bottom: 3vw; margin-top: 3vw;}
+.td1 {border-bottom: solid 1px #3C3C3C; width: 30%;}
+
+
+.MakeModelCityInput{ font-size: 1.5vw; vertical-align: top; width: 100%;
+     font-weight: bolder; border: none;  background-color: #1f1f1f;}
+
+
+.SearchButton{ vertical-align: bottom; width: 15vw; }
+
+
+
+.TakeYourBest { font-size: 1vw; border-spacing: 0 3vw;
+     color: #C1C1C1; font-weight: bolder; text-align: center; margin-top: 3vw;}
+     .TakeYourBest img{width: 4vw;}
+     .TakeYourBest td{ width: 15vw; }
+     .TakeYourBest :nth-of-type(2) :nth-child(1) {width: 5vw;}
+     .TakeYourBest :nth-of-type(5) :nth-child(1) {width: 6vw;}
+
+.BMWseriesbox{padding-top: 8.6%; padding-left: 12.2%; padding-bottom: 7%; }
+     .BMWpic{display: inline-block; width: 35%;}
+     .BMWseries{ margin-left: 13%; display: inline-block; width: 39%; vertical-align: top; }
+     .BMWseries h1 {color: #135EC5; padding-bottom: 1.5%; font-size: 3.5vw; font-weight: bolder;}
+     .BMWseries p{color: #C1C1C1; font-size: 1vw; line-height: 3em; padding-bottom: 6%;}
+     .BMWseries img {width: 40%;}
+
+.topbanner{background-image: linear-gradient( 180deg, #135EC5 0% 76%,  white 76% 100% ); }
+     .AddYourAnnoun{ padding-top: 7.4%; }
+     .AddYourAnnoun p{text-align: center; padding-bottom: 3.5%; font-size: 4vw; color: white; font-weight: bolder; }
+     .AdNowButton {width: 15%;}
+     .car2 {text-align: center;}
+     .car2 img {width: 40%}
+
+
+.BannersBox{padding-top: 6.7%; width: 85%;}
+.BannerLeft{float: left; width: 27vw; margin-top: 3vw;
+           box-shadow: 0px 1px 5px 0px #999999; position: relative;}
+     
+          .FURIE{ background-color: #135EC5;}
+          .FURIE img {opacity: 10%; width: 100%; padding-bottom: 10%; padding-top: 10%;}
+     .FreshButton{position: absolute; left: 75.9%; top: 7%; z-index: 2; width: 5vw;}
+     .Car3{position: absolute; left: 19%; top: 25%; z-index: 3; width: 65%;}
+     .MersLorem1{margin-top: 27%; text-align: center; font-size: 2vw; font-weight: bolder;}
+     .MersCars{margin-top: 3.5%; text-align: center; font-size: 1vw; color: #135EC5; font-weight: bolder;}
+     .kmDiesel{margin-top: 7%; text-align: center; font-size: 1.3vw; color: #C1C1C1;}
+     .ButtonAndPriceBox{width: 75%; padding-top: 1.5vw;; padding-bottom: 4vw;}
+     .MoreInfoButton {float: right; width: 11vw;}
+     .Price{font-size: 2vw; font-weight: bolder; color: #16AD2C; float: left; padding-top: 2%; }
+
+.BannerRight{float: right; width: 45vw; 
+     background-image: linear-gradient( 90deg, white 0% 55%, #135EC5 55% 100%);
+     box-shadow: 0px 1px 5px 0px #999999; position: relative;}
+.WhiteSide{float: left; width: 55%; vertical-align: top;}
+.MersCarsPriceBox {width: 80%;}
+.MersCars2 {float: left; font-size: 1vw; color: #E2E2E2; font-weight: bolder; margin-top: 3vw; }
+.Price2 {float: right; font-size: 2vw; font-weight: bolder; color: #16AD2C; padding-top: 2.3vw; }
+
+.BannerRightTxtBox{margin-left: 3vw; padding-top: 12vw;}
+.MersLorem2{font-size: 2vw; font-weight: bolder; color: #135EC5;}
+.BannerRightTxt { color: #C1C1C1; font-size: 1vw; line-height: 3em; 
+     padding-bottom: 5.5%; padding-top: 2%; width: 85%; } 
+
+.OrderCarButton{float: left; margin-top: 2vw; margin-bottom: 4.5vw; width: 13vw;}
+
+.BlueSide{float: right; background-color: #135EC5; 
+     vertical-align: top;}
+.FreshButton2{float: right; width: 5vw; padding-top: 2.7vw;
+     margin-right: 1.5vw;}
+
+.Car4{position: absolute; top: 27%; left: 46%;
+          width: 63%; }
+     
+.BulletsDown{position: absolute; bottom: 11%; right: 19%; width: 6%;}
+
+footer{margin-top: 50%; box-shadow: 0px 1px 5px 0px #999999;
+     width: 73.98%;  position: relative; height: 100%;}
+.ADWSearchBox{width: 94%; margin: 0 auto; padding-top: 3%;}
+.ADWSearchBox :last-child {margin-right: 0px;}
+
+
+.MakeCategoryKeywardsBox{float: left; border-bottom: solid 1px #EBEBEB; 
+    width: 19.5%; margin-right: 7%; }
+
+.MakeCategoryKeywardsinput{float: left; margin-bottom: 5%; border: none; 
+    font-size: 1.1vw; font-weight: bolder; width: 85%; }
+    .MakeCategoryKeywardsinput ::-webkit-input-placeholder {color: #C1C1C1;}
+.pin{float: right; vertical-align: top; width: 1.4vw;}
+
+
+
+.modelsfooter { font-size: 1vw; border-spacing: 0 3vw;
+     color: #C1C1C1; font-weight: bolder; text-align: center; margin-top: 5vw;}
+     .modelsfooter img{width: 3vw;}
+     .modelsfooter td{ width: 15vw; }
+     .modelsfooter :nth-of-type(2) :nth-child(1) {width: 4vw;}
+     .modelsfooter :nth-of-type(5) :nth-child(1) {width: 5vw;}
+
+
+
+.ADWSearchBox2{width: 94%; margin: 0 auto; padding-top: 3vw;}
+.ADWSearchBox2 :last-child {margin-right: 0px;}
+
+
+.PriceYearFromToBox{float: left; border-bottom: solid 1px #EBEBEB; 
+    width: 19.5%; margin-right: 7%;}
+
+.PriceYearFromToInput{float: left; margin-bottom: 5%; border: none; 
+    font-size: 1.1vw; font-weight: bolder; width: 85%; }
+    .PriceYearFromToInput ::-webkit-input-placeholder {color: #C1C1C1;}
+
+.ADWSearchEnd {background-color: #135EC5; margin-top: 10%; height: 40%; }
+.ADWSearchEndBox {width: 94%; margin: 0 auto;  vertical-align: top; padding-top: 7%;}
+.ADWSearchEndBox :last-child {margin-right: 0px;}
+
+.HideAdwSearch {position: absolute; text-align: center; width: 100%; bottom: 35%;}
+.HideAdwSearch img {width: 15vw;}
+
+.Transmission1Power2{float: left; border-bottom: solid 1px #3676CE; 
+    width: 19.5%; margin-right: 7%; position: relative; }
+.Transmission1Power2input{float: left; margin-bottom: 5%; border: none; 
+         font-size: 1.1vw; font-weight: bolder; width: 85%; background-color: #135EC5; }
+.SearchFooter{padding-top: 7%; padding-bottom: 3%; text-align: center;}
+.SearchFooter img{width: 15%;}
+
+
+
+
+
+
+@media screen and (max-width: 800px) 
+ {
+     .PhoneMailTxt { font-size: 2vw;}
+     .MailPic { width: 7%;} 
+     .PhonePic { width: 7%;} 
+     .LogIn{width: 13%; }
+     .Logo{ width: 7%;}
+     .MakeModelCityInput{ font-size: 3vw;}
+     
+ }
+
+
+
