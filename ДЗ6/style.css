@@ -1,14 +1,13 @@
-* {margin: 0 auto;}
+
 * {box-sizing: border-box;}
+
+a {text-decoration: none;}
 
 p {margin: 0px; padding: 0px;}
 h1{margin: 0px; padding: 0px;}
-:active, :hover, :focus {
-     outline: 0;
-     outline-offset: 0;
- }
 
 
+body {font-family: 'Montserrat', sans-serif; margin: 0 auto;}
 
 
 
@@ -16,24 +15,27 @@ main { max-width: 1980px;}
 
 header {background-color: #1f1f1f;}
 
-.logoMailPhoneLogIn{ padding-top: 3%; width: 90%;}
+.logoMailPhoneLogIn{ padding-top: 3%; width: 90%; margin: auto;}
 
-.Logo{ vertical-align: top; float: left; width: 5%;}
+.Logo{ vertical-align: middle; float: left; width: 4%;}
 
 
+.ContactsLogInBox{float: right; }
+.MailPic{ padding-left: 5vw; padding-right: 5vw; display: inline-block; padding-top: 0.5vw; position: relative; }
+        .MailPic::after{ content: "contact@furie.co"; font-size: 0.9vw; color: white; position: absolute; bottom: 0.7vw; padding-left: 0.5vw; }
+        .MailPic img {width: 2vw;}
 
-.MailPic{ padding-left: 1%; padding-top: 1%; padding-right: 1%;
-        float: right; width: 5%;  }
-.PhonePic {  padding-right: 1%;  padding-top: 0.8%;
-       float: right;  width: 5%; padding-left: 1%;  }
-       .PhoneMailTxt {font-size: 0.9vw; color: white; 
-           vertical-align: top;  float: right; 
-           padding-top: 1.4%;  padding-right: 1%;}
+.PhonePic { padding-left: 5vw;  padding-right: 10vw; display: inline-block; padding-top: 0.5vw;  position: relative;}
+     .PhonePic::after { content: "+48 605 320 091"; font-size: 0.9vw; color: white; position: absolute; bottom: 0.7vw; padding-left: 0.5vw; vertical-align: bottom; }
+     .PhonePic img {width: 2vw;}
+       
       
-.LogIn{ vertical-align: top; float: right; width: 10%; padding-left: 1%; }
+.LogIn{ display: inline-block; background-color: white; color: #135EC5; 
+border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; }
+.LogIn p{font-size: 1vw; font-weight: bolder; text-align: center; padding-top: 0.9vw;}
 
 
-.HeaderPic{ margin-top: 8.8%; width: 90%; position: relative; }
+.HeaderPic{ padding-top: 8.8%; width: 90%; position: relative; margin: auto;}
 
 .ChangeYourCar{ text-align: center;  }
 .ChangeYourCar img{ width: 80%;}
@@ -52,7 +54,8 @@ header {background-color: #1f1f1f;}
      font-weight: bolder; border: none;  background-color: #1f1f1f;}
 
 
-.SearchButton{ vertical-align: bottom; width: 15vw; }
+.SearchButton{ vertical-align: bottom; width: 13vw; height: 3.5vw; background-color: #135EC5; border-radius: 10vw;}
+.SearchButton p{font-size: 1vw; font-weight: bolder; color: white; text-align: center; padding-top: 1.1vw;}
 
 
 
@@ -63,9 +66,9 @@ header {background-color: #1f1f1f;}
      .TakeYourBest :nth-of-type(2) :nth-child(1) {width: 5vw;}
      .TakeYourBest :nth-of-type(5) :nth-child(1) {width: 6vw;}
 
-.BMWseriesbox{padding-top: 8.6%; padding-left: 12.2%; padding-bottom: 7%; }
+.BMWseriesbox{ margin: auto; width: 70%;  padding-top: 8.6%; padding-bottom: 7%; }
      .BMWpic{display: inline-block; width: 35%;}
-     .BMWseries{ margin-left: 13%; display: inline-block; width: 39%; vertical-align: top; }
+     .BMWseries{ margin-left: 13%; display: inline-block; width: 50%; vertical-align: top; }
      .BMWseries h1 {color: #135EC5; padding-bottom: 1.5%; font-size: 3.5vw; font-weight: bolder;}
      .BMWseries p{color: #C1C1C1; font-size: 1vw; line-height: 3em; padding-bottom: 6%;}
      .BMWseries img {width: 40%;}
@@ -78,7 +81,7 @@ header {background-color: #1f1f1f;}
      .car2 img {width: 40%}
 
 
-.BannersBox{padding-top: 6.7%; width: 85%;}
+.BannersBox{padding-top: 6.7%; width: 85%;  margin: auto;}
 .BannerLeft{float: left; width: 27vw; margin-top: 3vw;
            box-shadow: 0px 1px 5px 0px #999999; position: relative;}
      
@@ -89,7 +92,7 @@ header {background-color: #1f1f1f;}
      .MersLorem1{margin-top: 27%; text-align: center; font-size: 2vw; font-weight: bolder;}
      .MersCars{margin-top: 3.5%; text-align: center; font-size: 1vw; color: #135EC5; font-weight: bolder;}
      .kmDiesel{margin-top: 7%; text-align: center; font-size: 1.3vw; color: #C1C1C1;}
-     .ButtonAndPriceBox{width: 75%; padding-top: 1.5vw;; padding-bottom: 4vw;}
+     .ButtonAndPriceBox{width: 75%; padding-top: 1.5vw;; padding-bottom: 4vw; margin: auto;}
      .MoreInfoButton {float: right; width: 11vw;}
      .Price{font-size: 2vw; font-weight: bolder; color: #16AD2C; float: left; padding-top: 2%; }
 
@@ -97,7 +100,7 @@ header {background-color: #1f1f1f;}
      background-image: linear-gradient( 90deg, white 0% 55%, #135EC5 55% 100%);
      box-shadow: 0px 1px 5px 0px #999999; position: relative;}
 .WhiteSide{float: left; width: 55%; vertical-align: top;}
-.MersCarsPriceBox {width: 80%;}
+.MersCarsPriceBox {width: 80%; margin: auto;}
 .MersCars2 {float: left; font-size: 1vw; color: #E2E2E2; font-weight: bolder; margin-top: 3vw; }
 .Price2 {float: right; font-size: 2vw; font-weight: bolder; color: #16AD2C; padding-top: 2.3vw; }
 
@@ -118,8 +121,8 @@ header {background-color: #1f1f1f;}
      
 .BulletsDown{position: absolute; bottom: 11%; right: 19%; width: 6%;}
 
-footer{margin-top: 50%; box-shadow: 0px 1px 5px 0px #999999;
-     width: 73.98%;  position: relative; height: 100%;}
+footer{box-shadow: 0px 1px 5px 0px #999999;
+     width: 73.98%;  position: relative; height: 100%;  margin: 50% auto; margin-bottom: 0px;}
 .ADWSearchBox{width: 94%; margin: 0 auto; padding-top: 3%;}
 .ADWSearchBox :last-child {margin-right: 0px;}
 
@@ -154,12 +157,13 @@ footer{margin-top: 50%; box-shadow: 0px 1px 5px 0px #999999;
     font-size: 1.1vw; font-weight: bolder; width: 85%; }
     .PriceYearFromToInput ::-webkit-input-placeholder {color: #C1C1C1;}
 
-.ADWSearchEnd {background-color: #135EC5; margin-top: 10%; height: 40%; }
+.ADWSearchEnd {background-color: #135EC5; height: 40%; }
 .ADWSearchEndBox {width: 94%; margin: 0 auto;  vertical-align: top; padding-top: 7%;}
 .ADWSearchEndBox :last-child {margin-right: 0px;}
 
-.HideAdwSearch {position: absolute; text-align: center; width: 100%; bottom: 35%;}
-.HideAdwSearch img {width: 15vw;}
+.HideAdwSearch {background-color: #135EC5; width: 15vw; height: 1.7vw; margin-top: 8%;  border-radius: 8vw 8vw 0vw 0vw; margin-left: auto; margin-right: auto;}
+.HideAdwSearch p {text-align: center; color: white; font-size: 1vw; font-weight: bolder; padding-top: 2%;}
+
 
 .Transmission1Power2{float: left; border-bottom: solid 1px #3676CE; 
     width: 19.5%; margin-right: 7%; position: relative; }
@@ -167,10 +171,6 @@ footer{margin-top: 50%; box-shadow: 0px 1px 5px 0px #999999;
          font-size: 1.1vw; font-weight: bolder; width: 85%; background-color: #135EC5; }
 .SearchFooter{padding-top: 7%; padding-bottom: 3%; text-align: center;}
 .SearchFooter img{width: 15%;}
-
-
-
-
 
 
 @media screen and (max-width: 800px) 
@@ -183,6 +183,5 @@ footer{margin-top: 50%; box-shadow: 0px 1px 5px 0px #999999;
      .MakeModelCityInput{ font-size: 3vw;}
      
  }
-
 
 
