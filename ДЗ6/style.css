@@ -1,7 +1,7 @@
 
 * {box-sizing: border-box;}
 
-a {text-decoration: none;}
+a {text-decoration: none; display: inline-block;}
 
 p {margin: 0px; padding: 0px;}
 h1{margin: 0px; padding: 0px;}
@@ -17,21 +17,22 @@ header {background-color: #1f1f1f;}
 
 .logoMailPhoneLogIn{ padding-top: 3%; width: 90%; margin: auto;}
 
-.Logo{ vertical-align: middle; float: left; width: 4%;}
+.Logo{ vertical-align: middle; float: left; width: 4%;  clear: both; }
 
 
-.ContactsLogInBox{float: right; }
-.MailPic{ padding-left: 5vw; padding-right: 5vw; display: inline-block; padding-top: 0.5vw; position: relative; }
-        .MailPic::after{ content: "contact@furie.co"; font-size: 0.9vw; color: white; position: absolute; bottom: 0.7vw; padding-left: 0.5vw; }
-        .MailPic img {width: 2vw;}
+.ContactsLogInBox{float: right;  clear: right; }
+.MailPic{  display: inline-block; padding-top: 0.5vw; vertical-align: top;}
+     .MailPic img {width: 2vw; vertical-align: top;}
 
-.PhonePic { padding-left: 5vw;  padding-right: 10vw; display: inline-block; padding-top: 0.5vw;  position: relative;}
-     .PhonePic::after { content: "+48 605 320 091"; font-size: 0.9vw; color: white; position: absolute; bottom: 0.7vw; padding-left: 0.5vw; vertical-align: bottom; }
-     .PhonePic img {width: 2vw;}
+.PhonePic { margin-left: 3vw;   display: inline-block; padding-top: 0.5vw; vertical-align: top; }
+    .PhonePic img {width: 2vw; vertical-align: top;}
+
+.PhoneMailTxt {font-size: 0.9vw; color: white; display: inline-block; vertical-align: top; padding-top: 0.8vw;}
+.PhoneMailTxt p {padding-bottom: 0.6vw;}
        
       
-.LogIn{ display: inline-block; background-color: white; color: #135EC5; 
-border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; }
+.LogIn{ display: inline-block;  background-color: white; color: #135EC5; 
+border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; margin-left: 3vw; }
 .LogIn p{font-size: 1vw; font-weight: bolder; text-align: center; padding-top: 0.9vw;}
 
 
@@ -66,11 +67,11 @@ border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; }
      .TakeYourBest :nth-of-type(2) :nth-child(1) {width: 5vw;}
      .TakeYourBest :nth-of-type(5) :nth-child(1) {width: 6vw;}
 
-.BMWseriesbox{ margin: auto; width: 70%;  padding-top: 8.6%; padding-bottom: 7%; }
-     .BMWpic{display: inline-block; width: 35%;}
-     .BMWseries{ margin-left: 13%; display: inline-block; width: 50%; vertical-align: top; }
+.BMWseriesbox{ margin: auto; width: 70%;  padding-top: 8.6%; padding-bottom: 7%; overflow: auto; }
+     .BMWpic{display: inline-block; width: 35%; }
+     .BMWseries{ padding-left: 13%; display: inline-block; width: 43vw; vertical-align: top; overflow: auto; }
      .BMWseries h1 {color: #135EC5; padding-bottom: 1.5%; font-size: 3.5vw; font-weight: bolder;}
-     .BMWseries p{color: #C1C1C1; font-size: 1vw; line-height: 3em; padding-bottom: 6%;}
+     .BMWseries p{color: #C1C1C1; font-size: 1vw; line-height: 3em; padding-bottom: 1vw; text-align: justify;}
      .BMWseries img {width: 40%;}
 
 .topbanner{background-image: linear-gradient( 180deg, #135EC5 0% 76%,  white 76% 100% ); }
@@ -82,7 +83,7 @@ border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; }
 
 
 .BannersBox{padding-top: 6.7%; width: 85%;  margin: auto;}
-.BannerLeft{float: left; width: 27vw; margin-top: 3vw;
+.BannerLeft{float: left; width: 27vw; margin-top: 3vw; clear: both; 
            box-shadow: 0px 1px 5px 0px #999999; position: relative;}
      
           .FURIE{ background-color: #135EC5;}
@@ -96,7 +97,7 @@ border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; }
      .MoreInfoButton {float: right; width: 11vw;}
      .Price{font-size: 2vw; font-weight: bolder; color: #16AD2C; float: left; padding-top: 2%; }
 
-.BannerRight{float: right; width: 45vw; 
+.BannerRight{float: right; width: 45vw; clear: right;
      background-image: linear-gradient( 90deg, white 0% 55%, #135EC5 55% 100%);
      box-shadow: 0px 1px 5px 0px #999999; position: relative;}
 .WhiteSide{float: left; width: 55%; vertical-align: top;}
@@ -176,12 +177,18 @@ footer{box-shadow: 0px 1px 5px 0px #999999;
 @media screen and (max-width: 800px) 
  {
      .PhoneMailTxt { font-size: 2vw;}
-     .MailPic { width: 7%;} 
-     .PhonePic { width: 7%;} 
-     .LogIn{width: 13%; }
+     .MailPic img { width: 4vw;} 
+     .PhonePic img { width: 4vw;} 
+     .LogIn{width: 8vw; }
      .Logo{ width: 7%;}
      .MakeModelCityInput{ font-size: 3vw;}
      
+ }
+
+ @media screen and (max-width: 400px) 
+ {
+     .BMWseries p{color: #C1C1C1; font-size: 1vw; line-height: 3em; padding-bottom: 0%;}
+     .BMWseries {width: 35vw;}
  }
 
 
