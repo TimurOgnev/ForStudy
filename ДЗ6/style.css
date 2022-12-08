@@ -7,7 +7,7 @@ p {margin: 0px; padding: 0px;}
 h1{margin: 0px; padding: 0px;}
 
 
-body {font-family: 'Montserrat', sans-serif; margin: 0 auto;}
+body {font-family: 'Montserrat', sans-serif; margin: 0 auto; height: 100%;}
 
 
 
@@ -100,22 +100,22 @@ border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; margin-left: 
 .BannerRight{float: right; width: 45vw; clear: right;
      background-image: linear-gradient( 90deg, white 0% 55%, #135EC5 55% 100%);
      box-shadow: 0px 1px 5px 0px #999999; position: relative;}
-.WhiteSide{float: left; width: 55%; vertical-align: top;}
+.WhiteSide{float: left; width: 55%; vertical-align: top;  clear: right;}
 .MersCarsPriceBox {width: 80%; margin: auto;}
-.MersCars2 {float: left; font-size: 1vw; color: #E2E2E2; font-weight: bolder; margin-top: 3vw; }
-.Price2 {float: right; font-size: 2vw; font-weight: bolder; color: #16AD2C; padding-top: 2.3vw; }
+.MersCars2 {float: left; font-size: 1vw; color: #E2E2E2; font-weight: bolder; margin-top: 3vw; clear: both; }
+.Price2 {float: right; font-size: 2vw; font-weight: bolder; color: #16AD2C; padding-top: 2.3vw; clear: right; }
 
 .BannerRightTxtBox{margin-left: 3vw; padding-top: 12vw;}
 .MersLorem2{font-size: 2vw; font-weight: bolder; color: #135EC5;}
 .BannerRightTxt { color: #C1C1C1; font-size: 1vw; line-height: 3em; 
      padding-bottom: 5.5%; padding-top: 2%; width: 85%; } 
 
-.OrderCarButton{float: left; margin-top: 2vw; margin-bottom: 4.5vw; width: 13vw;}
+.OrderCarButton{float: left; margin-top: 2vw; margin-bottom: 4.5vw; width: 13vw;  clear: both;}
 
 .BlueSide{float: right; background-color: #135EC5; 
-     vertical-align: top;}
+     vertical-align: top; clear: right;}
 .FreshButton2{float: right; width: 5vw; padding-top: 2.7vw;
-     margin-right: 1.5vw;}
+     margin-right: 1.5vw; clear: both;}
 
 .Car4{position: absolute; top: 27%; left: 46%;
           width: 63%; }
@@ -124,17 +124,17 @@ border-radius: 10vw; width: 7vw; height: 3vw; vertical-align: top; margin-left: 
 
 footer{box-shadow: 0px 1px 5px 0px #999999;
      width: 73.98%;  position: relative; height: 100%;  margin: 50% auto; margin-bottom: 0px;}
-.ADWSearchBox{width: 94%; margin: 0 auto; padding-top: 3%;}
+.ADWSearchBox{width: 94%; margin: 0 auto; padding-top: 3%; height: 2vw;}
 .ADWSearchBox :last-child {margin-right: 0px;}
 
 
 .MakeCategoryKeywardsBox{float: left; border-bottom: solid 1px #EBEBEB; 
-    width: 19.5%; margin-right: 7%; }
+    width: 19.5%; margin-right: 7%; clear: right; }
 
-.MakeCategoryKeywardsinput{float: left; margin-bottom: 5%; border: none; 
-    font-size: 1.1vw; font-weight: bolder; width: 85%; }
+.MakeCategoryKeywardsinput{float: left; padding-bottom: 5%; border: none; 
+    font-size: 1.1vw; font-weight: bolder; width: 85%; clear: both; }
     .MakeCategoryKeywardsinput ::-webkit-input-placeholder {color: #C1C1C1;}
-.pin{float: right; vertical-align: top; width: 1.4vw;}
+.pin{float: right; vertical-align: top; width: 1.2vw; clear: right;  }
 
 
 
@@ -147,15 +147,15 @@ footer{box-shadow: 0px 1px 5px 0px #999999;
 
 
 
-.ADWSearchBox2{width: 94%; margin: 0 auto; padding-top: 3vw;}
+.ADWSearchBox2{width: 94%; margin: 0 auto; padding-top: 3vw;  height: 3vw; }
 .ADWSearchBox2 :last-child {margin-right: 0px;}
 
 
 .PriceYearFromToBox{float: left; border-bottom: solid 1px #EBEBEB; 
-    width: 19.5%; margin-right: 7%;}
+    width: 19.5%; margin-right: 7%; clear: right;}
 
-.PriceYearFromToInput{float: left; margin-bottom: 5%; border: none; 
-    font-size: 1.1vw; font-weight: bolder; width: 85%; }
+.PriceYearFromToInput{float: left; padding-bottom: 5%; border: none; 
+    font-size: 1.1vw; font-weight: bolder; width: 100%; clear: both; }
     .PriceYearFromToInput ::-webkit-input-placeholder {color: #C1C1C1;}
 
 .ADWSearchEnd {background-color: #135EC5; height: 40%; }
@@ -167,8 +167,8 @@ footer{box-shadow: 0px 1px 5px 0px #999999;
 
 
 .Transmission1Power2{float: left; border-bottom: solid 1px #3676CE; 
-    width: 19.5%; margin-right: 7%; position: relative; }
-.Transmission1Power2input{float: left; margin-bottom: 5%; border: none; 
+    width: 19.5%; margin-right: 7%; position: relative; clear: right; }
+.Transmission1Power2input{float: left; padding-bottom: 5%; border: none; clear: both;
          font-size: 1.1vw; font-weight: bolder; width: 85%; background-color: #135EC5; }
 .SearchFooter{padding-top: 7%; padding-bottom: 3%; text-align: center;}
 .SearchFooter img{width: 15%;}
