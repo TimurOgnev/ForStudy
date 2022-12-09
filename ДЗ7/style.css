@@ -1,0 +1,16 @@
+a {text-decoration: none;}
+body {background-color: azure;}
+
+.mainForm{margin: 3vw auto; background-color: rgb(255, 241, 201); width: 20vw; text-align: center;
+      border-radius: 1vw;  border: solid 2px gray; }
+.mainForm p{padding-top: 1vw;}
+.mainForm h1{font-weight: 500; color: gray;}
+
+.forms{display: block; margin:auto; margin-top: 3vw; width: 70%; 
+     border: none;  border-bottom: solid 2px gray;  background-color: rgb(255, 241, 201);  line-height: 2vw; font-size: 0.9vw;}
+     
+.Button{display: block; margin: 0 auto; margin-top: 3vw; width: 70%; height: 2.8vw; color: white; font-size: 0.8vw;
+      background-image: -webkit-linear-gradient( 180deg, #ffaa0d,  rgb(230, 141, 252) ); border: solid 2px gray; border-radius: 2vw;}
+
+      .reg{margin-top: 2.5vw; margin-bottom: 1vw; margin-left: auto; margin-right: auto; font-size: 0.7vw;}
+
