@@ -1,0 +1,29 @@
+* {box-sizing: border-box;}
+body{margin: 0; font-family: 'Montserrat', sans-serif;}
+main {max-width: 1980px; margin: 0 auto;}
+header{color: white; background-image: url(./img/Layer\ 2.png); background-repeat: no-repeat; 
+      width: 100%; height: 55vw; background-color: aquamarine; background-size: 100%;}
+nav{
+      display: grid;
+      width: 97%;
+      margin: 0 auto;
+      padding-top: 3.5vw;
+      grid-template-columns: 45% 41% 14%;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 1vw;
+ }
+ .Logo{width: 9.5vw;}
+
+ .menubox{margin-top: 1.6vw;}
+ .menu { padding-right: 1.8vw; }
+ .menu:last-of-type {padding-right: 0; display: inline-block;}
+ .menu:last-of-type img {width: 2vw; padding-left: 0.8vw;}
+
+
+ .GetFreeQuote{border: solid 1px white; font-size: 1vw; font-weight: 900; float: right; }
+      .GetFreeQuote img { float: right; padding-top: 1.5vw; width: 1.5vw;}
+      .GetFreeQuote p{  padding-top: 0.4vw; padding-left: 1.5vw; float: left;}
+      
+
+ 
