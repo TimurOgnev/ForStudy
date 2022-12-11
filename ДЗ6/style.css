@@ -16,11 +16,12 @@ main { max-width: 1980px;}
 header {background-color: #1f1f1f;}
 
 .logoMailPhoneLogIn{ padding-top: 3%; width: 90%; margin: auto;}
+.logoMailPhoneLogIn::after{content: ""; clear: both;}
 
-.Logo{ vertical-align: middle; float: left; width: 4%;  clear: both; }
+.Logo{ vertical-align: middle; float: left; width: 4%;}
 
 
-.ContactsLogInBox{float: right;  clear: right; }
+.ContactsLogInBox{float: right; }
 .MailPic{  display: inline-block; padding-top: 0.5vw; vertical-align: top;}
      .MailPic img {width: 2vw; vertical-align: top;}
 
@@ -126,6 +127,7 @@ footer{box-shadow: 0px 1px 5px 0px #999999;
      width: 73.98%;  position: relative; height: 100%;  margin: 50% auto; margin-bottom: 0px;}
 .ADWSearchBox{width: 94%; margin: 0 auto; padding-top: 3%; height: 2vw;}
 .ADWSearchBox :last-child {margin-right: 0px;}
+.ADWSearchBox::after{content: ""; clear: both;}
 
 
 .MakeCategoryKeywardsBox{float: left; border-bottom: solid 1px #EBEBEB; 
@@ -147,8 +149,9 @@ footer{box-shadow: 0px 1px 5px 0px #999999;
 
 
 
-.ADWSearchBox2{width: 94%; margin: 0 auto; padding-top: 3vw;  height: 3vw; }
+.ADWSearchBox2{width: 94%; margin: 0 auto; padding-top: 3vw;  height: 3vw;  }
 .ADWSearchBox2 :last-child {margin-right: 0px;}
+.ADWSearchBox2::after{content: ""; clear: both;}
 
 
 .PriceYearFromToBox{float: left; border-bottom: solid 1px #EBEBEB; 
@@ -161,14 +164,15 @@ footer{box-shadow: 0px 1px 5px 0px #999999;
 .ADWSearchEnd {background-color: #135EC5; height: 40%; }
 .ADWSearchEndBox {width: 94%; margin: 0 auto;  vertical-align: top; padding-top: 7%;}
 .ADWSearchEndBox :last-child {margin-right: 0px;}
+.ADWSearchEndBox::after{content: ""; clear: both;}
 
 .HideAdwSearch {background-color: #135EC5; width: 15vw; height: 1.7vw; margin-top: 8%;  border-radius: 8vw 8vw 0vw 0vw; margin-left: auto; margin-right: auto;}
 .HideAdwSearch p {text-align: center; color: white; font-size: 1vw; font-weight: bolder; padding-top: 2%;}
 
 
 .Transmission1Power2{float: left; border-bottom: solid 1px #3676CE; 
-    width: 19.5%; margin-right: 7%; position: relative; clear: right; }
-.Transmission1Power2input{float: left; padding-bottom: 5%; border: none; clear: both;
+    width: 19.5%; margin-right: 7%; position: relative;  }
+.Transmission1Power2input{float: left; padding-bottom: 5%; border: none;
          font-size: 1.1vw; font-weight: bolder; width: 85%; background-color: #135EC5; }
 .SearchFooter{padding-top: 7%; padding-bottom: 3%; text-align: center;}
 .SearchFooter img{width: 15%;}
@@ -187,8 +191,9 @@ footer{box-shadow: 0px 1px 5px 0px #999999;
 
  @media screen and (max-width: 400px) 
  {
-     .BMWseries p{color: #C1C1C1; font-size: 1vw; line-height: 3em; padding-bottom: 0%;}
+     .BMWseries p{padding-bottom: 0%;}
      .BMWseries {width: 35vw;}
  }
+
 
 
