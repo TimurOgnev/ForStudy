@@ -7,21 +7,19 @@ body {background-color: azure;}
       border-radius: 1vw;  border: solid 2px gray;  
       padding-top: 3%; padding-bottom: 1%;}
 .mainForm h1{font-weight: 500; color: gray;}
+.mainForm p{text-align: center;}
 
 .forms{display: block; 
-      margin-top: 2vw; margin-left: auto; margin-right: auto;  
+      margin-top: 2vw; margin-left: auto; margin-right: auto; 
       width: 70%; 
      border: none;  border-bottom: solid 2px gray;  
      background-color: rgb(255, 241, 201);  line-height: 2vw; font-size: 0.9vw;}
      
 .Button{display: block; 
-      margin-top: 2.5vw; margin-left: auto; margin-right: auto;  
+      margin-top: 2.5vw; margin-bottom: 5.5vw; margin-left: auto; margin-right: auto; 
       height: 2.8vw; 
+      width: 70%;
       color: white; 
       font-size: 0.8vw; 
-      width: 70%;
       background-image: -webkit-linear-gradient( 180deg, #ffaa0d,  rgb(230, 141, 252) ); border: solid 2px gray; border-radius: 2vw;}
-
-.reg{margin-top: 5.5vw;  margin-left: auto; margin-right: auto; 
-font-size: 0.7vw;}
 
