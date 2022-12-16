@@ -1,71 +1,78 @@
-<!DOCTYPE html>
-<html lang="rus">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Marviss</title>
-    
-    <link rel="stylesheet" href="./style.css">
-    
-</head>
-<body>
-    <main>
-
-<header>
-    <nav>
-<div><img class="Logo" src="./img/Logo.png"></div>
-
-    
-    <div class="menubox">
-        <span class="menu">home</span>
-        <span class="menu">pages</span>
-        <span class="menu">elements</span>
-        <span class="menu">portfolio</span>
-        <span class="menu">blog</span>
-        <span class="menu">shop <img src="./img/Фигура 1.png"></span>
-  </div>
-
-     
-<div class="GetFreeQuote" >
-    <p>get free quote</p><img src="./img/Strelka.png">
-</div>
-
-    </nav>
-    <div class="HeaderContentBox">
-       <p class="HeaderContent1">Marviss World pree</p>
-      
-       <p class="HeaderContent2">Experts in Logistics <br> small and middle</p>
-       
-       <p class="HeaderContent3">world wide world wide world wide</p>
-
-       <div class="GetFreeQuote2 clearfix"><p>Get Free Quote</p> <img src="./img/Strelka.png"></div>
-    </div>
-</header>
-
-<section>
-    
-    <content>
-        <div><div class="contentTXTBox"><h1>Road freifgt<br></h1><div class="redline"></div><p>No matter what is your cargo small or if</p><img class="contentImage" src="./img/dogs.png"></div></div>
-        <div><div class="contentTXTBox"><h1>Road freifgt<br></h1><div class="redline"></div><p>No matter what is your cargo small or if</p><img class="contentImage" src="./img/dogs.png"></div></div>
-        <div><div class="contentTXTBox"><h1>Road freifgt<br></h1><div class="redline"></div><p>No matter what is your cargo small or if</p><img class="contentImage" src="./img/dogs.png"></div></div>
-    </content>
-    
- </section>
-
- <aside>
-<div>Lorem ipsum, </div>
-<div class="ViewAllSevices"><a href="#"><h3>&lsaquo; viev all services</h3> </a></div>
-<div>Lorem ipsum, </div>
-</aside>
-
-<footer>
-
-</footer>
+* {box-sizing: border-box;}
+body{margin: 0; font-family: 'Montserrat', sans-serif;}
+main {max-width: 1980px; margin: 0 auto;}
+header{color: white; background-image: url(./img/Layer\ 2.png); background-repeat: no-repeat; 
+      width: 100%; height: 55vw; background-color: aquamarine; background-size: 100%;}
+p {margin: 0;}
+h1{margin: 0;}
+a{text-decoration: none;}
 
 
+.clearfix::after {content: ""; clear: both; display: table;}
+nav{
+      display: grid;
+      width: 97%;
+      margin: 0 auto;
+      padding-top: 3.5vw;
+      margin-bottom: 3vw;
+      grid-template-columns: 45% 41% 14%;
+      text-transform: uppercase;
+      font-weight: 900;
+      font-size: 1vw;
+ }
+ .Logo{width: 9.5vw;}
 
-</body>
-</main>
+ .menubox{margin-top: 1.6vw;}
+ .menu { padding-right: 1.8vw; }
+ .menu:last-of-type {padding-right: 0; display: inline-block;}
+ .menu:last-of-type img {width: 2vw; padding-left: 0.8vw;}
 
-</html>
+
+ .GetFreeQuote{border: solid 1px white; font-size: 1vw; font-weight: 900; float: right; }
+      .GetFreeQuote img { float: right; padding-top: 1.7vw; width: 1.2vw;}
+      .GetFreeQuote p{  padding-top: 1.4vw; padding-left: 1.5vw; float: left;}
+
+.HeaderContentBox {padding-left: 42vw;}
+.HeaderContent1 {color: #ffc2e4; font-size: 1vw;  }
+.HeaderContent2 {color: rgb(255, 255, 255); font-size: 2.5vw;  font-weight: bolder;  }
+.HeaderContent3 {color: #97155B; font-size: 0.8vw; font-weight: bolder; margin-top: 3vw; margin-bottom: 4vw;  }
+
+.GetFreeQuote2{background-color:#D60C1A; width: 20vw;}
+.GetFreeQuote2 p{color: rgb(255, 255, 255); 
+      font-size: 2vw; font-weight: bolder; padding-left: 2.5vw; padding-top: 1.5vw; padding-bottom: 1.5vw; float: left;}
+.GetFreeQuote2 img{ float: right; padding-top: 2.1vw; margin-right: 0.7vw; width: 1.5vw;}
+
+
+section {background-color: #A99494; position: relative;}
+
+content{
+      position: relative;
+      left: 5%;
+      bottom: 1vw;
+      display: grid;
+      width: 90%;
+      grid-template-columns: 1fr 1fr 1fr;
+      column-gap: 5%;
+      grid-template-rows: 30vw;
+      padding-bottom: 10vw;
+      }
+      content div{background-color: white;  font-size: 1vw; width: 26.5vw; }
+      .contentTXTBox{margin-left: 1.3vw; margin-top: 50%; width: fit-content; position: relative;}
+      .redline {background-color: #D60C1A; width: 8vw; height: 1vw; margin-top: 1vw; margin-bottom: 1vw;}
+      .contentImage{position: absolute; width: 22vw; bottom: 7vw; left: 2vw;}
+
+aside{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 5vw 5vw 25vw;
+      grid-auto-rows: 10vw;
+      font-size: 1vw;
+      }
+.ViewAllSevices{text-align: right; padding-right: 5%; font-size: 2vw;}
+
+footer{display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 5vw 5vw 25vw;
+      background-color: black;
+
+}
