@@ -5,7 +5,6 @@ header{color: white; background-image: url(./img/Layer\ 2.png); background-repea
       width: 100%; height: 55vw; background-color: aquamarine; background-size: 100%;}
 p {margin: 0;}
 h1{margin: 0;}
-h3{margin: 0;}
 a{text-decoration: none;}
 
 
@@ -67,8 +66,9 @@ aside{
       grid-template-columns: 1fr;
       grid-template-rows: 5vw 5vw 25vw;
       grid-auto-rows: 10vw;
+      font-size: 1vw;
       }
-.ViewAllSevices{text-align: right; padding-right: 5%;}
+.ViewAllSevices{text-align: right; padding-right: 5%; font-size: 2vw;}
 
 footer{display: grid;
       grid-template-columns: 1fr;
