@@ -1,0 +1,68 @@
+* {box-sizing: border-box;}
+body{margin: 0; font-family: 'Montserrat', sans-serif;}
+
+p {margin: 0;}
+h4{margin: 0;}
+a{text-decoration: none; color: black;}
+ul{list-style: none; margin: 0; padding: 0; font-weight: bold; font-size: 1.1vw;}
+
+
+
+
+header{ width: 95%; margin: 1vw auto;  display: flex;}
+
+nav{  width: 100%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 1vw;
+}
+ .Logo{ margin-right: 5vw; display: inline-flex; }
+ .Logo img{width: 10vw;}
+ 
+ .Lang {justify-content: baseline; position: relative;}
+ .LangCircle {width: 2vw;}
+ .ENG {position: relative; bottom: 0.55vw; }
+ .LangArrow{width: 1vw; position: relative; bottom: 0.55vw;}
+
+ .ContentBox {width: 95%; margin: 0 auto; margin-top: 1.5vw;}
+ .crumbs{font-size: 1vw; }
+
+ content {display: flex; margin-top: 1vw;}
+ aside {display: inline-flex; width: 16%; font-size: 1.2vw;}
+ aside h1{margin-top: 2vw;}
+ .PicAndTxt{display: grid;
+      grid-template-columns: 1fr;
+      row-gap: 2vw;
+      width: 84%;
+      font-size: 1vw;
+      line-height: 2em;
+      
+      
+}
+.Pic {width: 100%;}
+.PicAndTxt h4{ font-size: 1.3vw;}
+
+footer {display: flex; 
+      margin: 1vw auto;  
+      width: 95%;
+       margin-top: 3vw;}
+
+.Contacts{  width: 100%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: space-around;
+            font-size: 1vw;
+      }
+.SocNet {justify-content: baseline; display: inline-flex;}
+.SocNet img {width: 3vw; margin-right: 0.5vw;}
+
+
+
+      
+      
+      
+
+      
+
+ 
