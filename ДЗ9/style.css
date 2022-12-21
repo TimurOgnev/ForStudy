@@ -33,11 +33,13 @@ nav{  width: 100%;
  content {display: flex; margin-top: 1vw;}
  aside { width: 16%; font-size: 1.2vw;}
  aside h1{margin-top: 5vw;}
+
  .PicAndTxt{display: flex;
       flex-direction: column;
       width: 84%;
       font-size: 1vw;
       line-height: 2em;
+      
       }
       .PicAndTxt div{margin-top: 2vw;}
 .Pic {width: 100%;}
@@ -56,11 +58,3 @@ footer {display: flex;
       }
 .SocNet {justify-content: baseline; display: inline-flex;}
 .SocNet img {width: 3vw; margin-right: 0.5vw;}
-
-      
-      
-      
-
-      
-
- 
