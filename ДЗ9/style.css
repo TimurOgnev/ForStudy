@@ -51,10 +51,10 @@ footer {display: flex;
        margin-top: 3vw;}
 
 .Contacts{  width: 100%;
-            display: inline-flex;
+            display: flex;
             align-items: center;
             justify-content: space-around;
             font-size: 1vw;
       }
-.SocNet {justify-content: baseline; display: inline-flex;}
+.SocNet {display: flex;}
 .SocNet img {width: 3vw; margin-right: 0.5vw;}
