@@ -1,0 +1,191 @@
+* {box-sizing: border-box;}
+body{margin: 0; font-family: 'Montserrat', sans-serif;}
+
+p {margin: 0;}
+.col {padding: 0;}
+.col-1 {padding: 0;}
+.col-2{padding: 0;}
+.col-3{padding: 0;}
+.col-4{padding: 0;}
+.col-5{padding: 0;}
+.col-6{padding: 0;}
+.col-7{padding: 0;}
+.col-8{padding: 0;}
+.col-9{padding: 0;}
+.col-10{padding: 0;}
+.col-11{padding: 0;}
+.col-12 {padding: 0;}
+
+
+
+a{text-decoration: none; color: rgb(255, 255, 255);}
+a:hover{color: #02b620; text-decoration: none;}
+
+
+
+
+header {background-image: url(./img/Слой\ 5.png); background-size: 100%;}
+.ContHeader { background-color: rgba(0, 0, 0, 0.5); color: white; padding-left: 40px; padding-right: 40px; font-size: 16px; padding-bottom: 2vw;}
+
+.Logo {padding-top: 1.5vw;text-align: center; }
+
+
+.logotxt {text-align: center; margin-top: 1vw;}
+
+
+.nav {justify-content: space-around; padding-top: 6vw;}
+.SocNet{justify-content: space-between; padding-top: 5vw; display: flex;}
+
+@media screen and (max-width: 500px) 
+{
+      .nav {display: block; margin-left: auto; margin-right: auto;}
+      .nav p {text-align: center;}  
+      .SocNet{padding-left: 10%; padding-right: 10%;}    
+}
+@media screen and (max-width: 990px)
+{
+      .SocNet{padding-left: 20%; padding-right: 20%;}
+} 
+
+
+
+
+
+
+
+
+
+.mainForm{margin-top: 4vw; margin-bottom: 2vw;
+      background-color: rgba(0, 0, 0, 0.5); 
+      text-align: center;
+      padding-top: 3%; padding-bottom: 1%;}
+.mainForm h1{font-size: 20px; color: rgb(255, 255, 255); margin-top: 1vw; margin-bottom: 0; }
+.mainForm span{font-size: 18px;}
+.mainForm p{text-align: center;}
+
+.forms{display: block; 
+      margin-top: 2.5vw; margin-left: auto; margin-right: auto; 
+      width: 60%; 
+     border: none; border-bottom: solid 1px white;    color: #02b620;
+     background-color: rgba(0, 0, 0, 0);  line-height: 2vw;}
+
+     .forms::placeholder{color: white; text-align: center;}
+     
+.Button{display: block; 
+      margin-top: 3.5vw; margin-bottom: 1vw; margin-left: auto; margin-right: auto; 
+      height: 30px; 
+      width: 60%;
+      color: white; 
+      border: none;
+       
+      background-color: #02b620;}
+
+    
+
+
+.Banner1{font-size: 1.2vw; padding-bottom: 5vw;}
+.Banner1Head{font-size: 20px; text-align: center; margin-top: 3vw; margin-bottom: 1vw;}
+.Banner1 a{color: #02b620; font-size: 1.2vw; padding-left: 2vw;}
+.Banner1 img {width: 40vw;}
+.Banner1Pic {text-align: right;}
+.Banner1Txt {text-align: left; padding-right: 35%;}
+
+@media screen and (max-width: 767px)
+{
+      .Banner1 img {width: 40vw;} 
+      .Banner1 a {font-size: 18px;} 
+      .Banner1Txt {font-size: 18px;} 
+      .Banner1 p {text-align: center; padding: 0;}  
+}
+
+@media screen and (max-width: 500px)
+{
+      .Banner1 img {width: 60vw;} 
+      .Banner1 a {font-size: 18px;} 
+      .Banner1Txt {font-size: 18px;}  
+}
+
+@media screen and (max-width: 991px) and (min-width: 881px)
+{
+.Banner1Txt {padding-left: 20%; padding-right: 0px;} 
+     
+}
+
+
+
+.Banner2{ color: white; background-image: linear-gradient( 180deg, #032552,  #194E52); }
+.Banner2 p {text-align: center;}
+.Banner2Head{ font-size: 30px; padding-top: 2vw; margin-bottom: 3vw; }
+.pic1 {width: 150px;}
+.pic2 {width: 140px;}
+.pic3 {width: 140px;}
+
+
+
+
+.Banner2txt1{margin-bottom: 1vw; font-size: 18px; padding-left: 4vw; padding-right: 4vw;}
+.Banner2txt2{margin-top: 1.2vw; margin-bottom: 1vw; font-size: 18px; padding-left: 4vw; padding-right: 4vw; }
+.Banner2txt3{margin-top: 0.9vw; margin-bottom: 1vw; font-size: 18px; padding-left: 4vw; padding-right: 4vw; }
+
+@media screen and (max-width: 991px)
+{
+      .Banner2txt1{margin-bottom: 10%; }
+      .Banner2txt2{margin-top: 1.2vw; margin-bottom: 10%; }
+      .Banner2txt3{margin-top: 0.9vw; margin-bottom: 1vw; }
+     
+}
+
+
+section {height: 30vw;}
+
+footer { 
+      background-color: #000;
+      padding: 36px 30px; padding-left: 4vw; padding-right: 4vw;  color: white; }
+
+      .LogoAndSocNetBox{width: 180px;}
+
+      .LogoFooter{vertical-align: top;}
+      .SocNetFooter{ display: flex; justify-content: space-between;  margin-top: 1.5vw; }
+      .SocNetFooter img { width: 25px; }
+      .SocNetFooter :nth-child(1) :first-of-type  {width: 15px; height: 25px;}
+
+
+
+
+
+
+.navFooter {justify-content: space-between; font-size: 16px; display: flex; padding-top: 1vw; vertical-align: top;}
+
+.AllRightsReserved{font-size: 10px; text-align: right; text-align: right; margin-top: 2.5vw;  }
+
+@media screen and (max-width: 767px)
+{
+      .LogoAndSocNetBox{margin: 0 auto;}
+      .navFooter {display: block; margin: 0 auto; width: 180px;}  
+      .navFooter a {display: block; text-align: center; }
+      .navFooter:first-child {margin-top: 4vw;}
+      .SocNetFooter img {margin-top: 4vw;}   
+      .AllRightsReserved{text-align: center; margin-top: 10vw;}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+      
+      
+
+      
+
+ 
